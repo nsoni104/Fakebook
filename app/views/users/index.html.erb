@@ -6,6 +6,8 @@
     <th>Name</th>
     <th>Email</th>
     <th>Gender</th>
+    <th>Age</th>
+    <th>Greek (True/False)</th>
     <th></th>
     <th></th>
   </tr>
@@ -16,6 +18,8 @@
     <td><%= user.name %></td>
     <td><%= user.email %></td>
     <td><%= user.gender %></td>
+    <td><%= user.age %></td>
+    <td><%= user.greek %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
